@@ -22,11 +22,13 @@ public class Fibonanci {
         int fibocount=scn.nextInt();
         int a=0;
         int b=1;
+        int jum=0;
         for (int i = 1; i < fibocount; i++) {
-            System.out.println("Deret Fibo: "+a);
             a=a+b;
             b=a-b;
+            jum=jum+a;
         }
+        System.out.println("Jumlah : "+jum);
     }
     
 }
