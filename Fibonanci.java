@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Praktikum
+ *KEBALIK NIH
  */
 public class Fibonanci {
 
